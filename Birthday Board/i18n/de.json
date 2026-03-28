@@ -1,0 +1,79 @@
+{
+    "board.name": "Zebrus Birthday Board",
+    "board.description": "Zeigt an, wer heute Geburtstag hat.",
+
+    "mail.text": "Hallo @,^ich habe bemerkt, dass du ein sehr aufmerksamer Nachbar bist und an viele Geburtstage denkst! Hier ist eine Bauanleitung für eine Geburtstags-Board, damit du keinen mehr verpasst. %item craftingRecipe ZebrusBirthdayBoard %% [#]Bürgermeister Lewis",
+    "mail.text_wall": "P.S.:^Ich habe in meinen alten Unterlagen noch einen zweiten Bauplan für dich gefunden. Ein Wandposter erfüllt den gleichen Zweck und spart Platz! %item craftingRecipe ZebrusBirthdayWallBoard %% [#]Bürgermeister Lewis",
+
+    "dialogue.thanks": "Du hast {0} heute bereits ein Geschenk überreicht.",
+    "dialogue.simple_birthday": "Heutiges Geburtstagskind: {0}",
+    "dialogue.wishlist": "Heutiges Geburtstagskind: {0}\n\nGewünschte Items:\n- {1}",
+    "dialogue.no_birthday": "Heute hat niemand in Stardew Valley Geburtstag.",
+
+    "config.radius.name": "Truhen-Suchradius",
+    "config.radius.tooltip": "Achtung: Dieser Regler (1 bis 50 Kacheln) wird nur angewendet, wenn oben im Dropdown 'Bestimmter Radius' ausgewählt wurde!",
+    "config.filter.name": "Seltene Items filtern",
+    "config.filter.tooltip": "Verhindert, dass extrem seltene oder unwiederbringliche Gegenstände (z.B. Prismatische Scherbe, Perle oder Magische Sternenkristalle) auf der Wunschliste erscheinen.",
+    "config.showitems.name": "Lieblings-Items anzeigen",
+    "config.showitems.tooltip": "Wenn deaktiviert, werden keine Items auf der Tafel oder im Dialog angezeigt.",
+    "config.scope.name": "Suchbereich für Items",
+    "config.scope.tooltip": "Wo soll die Mod nach Items suchen, um sie zu zählen?",
+    "scope.inventory": "Nur Rucksack",
+    "scope.radius": "Bestimmter Radius (siehe Regler)",
+    "scope.location": "Aktuelle Karte (Ganze Map)",
+    "scope.farm": "Gesamter Hof (inkl. Gebäude/Haus)",
+    "scope.world": "Ganze Welt",
+
+    "config.filter_wine.name": "Wein filtern",
+    "config.filter_truffleoil.name": "Trüffelöl filtern",
+    "config.filter_truffle.name": "Trüffel filtern",
+    "config.filter_paleale.name": "Helles Bier filtern",
+    "config.filter_starfruit.name": "Sternenfrucht filtern",
+    "config.filter_ancientfruit.name": "Uralte Frucht filtern",
+    "config.filter_caviar.name": "Kaviar filtern",
+    "config.filter_iridiumbar.name": "Iridiumbarren filtern",
+    "config.filter_diamond.name": "Diamant filtern",
+    "config.filter_fairyrose.name": "Feenrose filtern",
+    "config.filter_item.tooltip": "Wenn aktiviert, wird dieses Item nicht auf der Wunschliste angezeigt.",
+    "config.section_filter.name": "Spezifische Items filtern",
+
+    "phone.name": "Geburtstags-Telefon",
+    "phone.description": "Ein mobiles Gerät, mit dem du von überall aus sehen kannst, wer heute Geburtstag hat.",
+    "phone.mail": "Hallo @,^du übertriffst dich selbst! Niemand in diesem Tal kümmert sich so gut um seine Mitmenschen wie du. Als Dank für deine unermüdliche Mühe habe ich einen alten Bauplan aus der Stadt mitgebracht. Ein mobiles Geburtstags-Telefon! %item craftingRecipe BirthdayPhone %%[#]Bürgermeister Lewis",
+    "config.gifts_board.name": "Benötigte Geschenke (Board)",
+    "config.gifts_board.tooltip": "Wie viele Geburtstagsgeschenke musst du verteilen, um das Rezept für die Holzboard per Post zu erhalten?",
+    "config.gifts_phone.name": "Benötigte Geschenke (Telefon)",
+    "config.gifts_phone.tooltip": "Wie viele Geburtstagsgeschenke musst du verteilen, um das Rezept für das Telefon per Post zu erhalten?",
+    "config.enable_phone.name": "Geburtstagstelefon aktivieren",
+    "config.enable_phone.tooltip": "Wenn aktiviert, erhältst du das Rezept für das Telefon nach der eingestellten Anzahl an Geschenken. Wenn deaktiviert, kann das Telefon weder erhalten noch benutzt werden.",
+
+    "wallboard.name": "Geburtstags-Poster",
+    "wallboard.description": "Ein praktisches Poster für die Wand, das anzeigt, wer heute Geburtstag hat.",
+
+    "statistics.next_birthdays": "--- Statistiken & Infos ---\nNächste Geburtstage:\n{0}",
+    "statistics.entry": "- {0} ({1}. {2})",
+    "season.spring": "Frühling",
+    "season.summer": "Sommer",
+    "season.fall": "Herbst",
+    "season.winter": "Winter",
+
+    "statistics.season": "Diese Jahreszeit: {0}/{1} Geschenke ({2}%)",
+    "statistics.year": "Dieses Jahr: {0}/{1} Geschenke ({2}%)",
+    "statistics.total": "Gesamt: {0}/{1} Geschenke ({2}%)",
+    "statistics.details_title": "Details:",
+    "statistics.most_gifted_npc": "- Am häufigsten beschenkt: {0} ({1} Mal)",
+    "statistics.forgotten_npc_with_count": "- Fühlt sich vergessen: {0} ({1} Mal)",
+    "statistics.most_gifted_item_with_count": "- Meistverschenktes Geschenk: {0} ({1} Mal)",
+
+    "menu.tab_today": "Heutige Geburtstage",
+    "menu.tab_stats": "Statistiken",
+    "menu.tab_calendar": "Kalender",
+
+    "config.phone_inventory_only.name": "Telefon: Nur Inventar außerhalb des Hofes",
+    "config.phone_inventory_only.tooltip": "Wenn aktiviert, greift das Telefon außerhalb des Hofes (z. B. in der Stadt) nur auf das Spieler-Inventar zu, unabhängig vom eingestellten Suchradius.",
+
+    "config.show_hud_icon.name": "HUD: Geburtstags-Erinnerung",
+    "config.show_hud_icon.tooltip": "Wenn aktiviert, erscheint morgens ein kleines Kuchen-Symbol neben der Uhrzeit, falls jemand Geburtstag hat und noch nicht beschenkt wurde.",
+
+    "dialogue.anniversary": "Alles Gute zum Hochzeitstag!\n\nHeute bist du bereits seit {1} Jahr(en) mit {0} verheiratet."
+}

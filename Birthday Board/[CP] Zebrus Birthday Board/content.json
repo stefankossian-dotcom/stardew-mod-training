@@ -1,0 +1,117 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_Texture",
+            "FromFile": "assets/birthdayboard.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "When": { "Season": "spring" }
+        },
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_Texture",
+            "FromFile": "assets/birthdayboard.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "When": { "Season": "summer" }
+        },
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_Texture",
+            "FromFile": "assets/birthdayboard.png",
+            "FromArea": {
+                "X": 64,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "When": { "Season": "fall" }
+        },
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_Texture",
+            "FromFile": "assets/birthdayboard.png",
+            "FromArea": {
+                "X": 96,
+                "Y": 0,
+                "Width": 32,
+                "Height": 32
+            },
+            "When": { "Season": "winter" }
+        },
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_WallTexture",
+            "FromFile": "assets/birthdaywallboard.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "Zebru.BirthdayBoard.CP": "Birthday Board/decor/2 2/2 1/1/-1/2/{{Zebru.BirthdayBoard/BoardName}}/0/Zebru.BirthdayBoard.CP_Texture/true",
+                "Zebru.BirthdayWallBoard.CP": "Birthday Wall Poster/painting/2 2/2 2/1/-1/2/{{Zebru.BirthdayBoard/WallBoardName}}/0/Zebru.BirthdayBoard.CP_WallTexture/true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "ZebrusBirthdayBoard": "388 50 334 1/Home/(F)Zebru.BirthdayBoard.CP/false/null",
+                "ZebrusBirthdayWallBoard": "388 10 334 2/Home/(F)Zebru.BirthdayWallBoard.CP/false/null"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Zebru.BirthdayBoard_RecipeMail": "{{Zebru.BirthdayBoard/MailText}}",
+                "Zebru.BirthdayBoard_WallRecipeMail": "{{Zebru.BirthdayBoard/MailTextWall}}"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Zebru.BirthdayBoard.CP_PhoneTexture",
+            "FromFile": "assets/birthdayphone.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Zebru.BirthdayBoard_Phone": {
+                    "Name": "Birthday Phone",
+                    "DisplayName": "{{Zebru.BirthdayBoard/PhoneName}}",
+                    "Description": "{{Zebru.BirthdayBoard/PhoneDesc}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1000,
+                    "Texture": "Zebru.BirthdayBoard.CP_PhoneTexture",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "BirthdayPhone": "337 1 336 5 334 10/Home/Zebru.BirthdayBoard_Phone/false/null"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Zebru.BirthdayBoard_PhoneMail": "{{Zebru.BirthdayBoard/PhoneMail}}"
+            }
+        }
+    ]
+}
