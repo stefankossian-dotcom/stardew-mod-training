@@ -1,6 +1,6 @@
 # Stardew Mod Training
 
-## BirthdayBoard
+## Birthday Board
 Beispiel‑Mod: Ein Board für Geburtstage im Spiel. Enthält:
 - `manifest.json`
 - `content.json`
