@@ -1,0 +1,20 @@
+{
+    "Name": "Zebrus Quest Board",
+    "Author": "Zebru",
+    "Version": "1.13.0",
+    "Description": "Zebrus Quest Board, shows Quest.",
+    "UniqueID": "Zebru.QuestBoard",
+    "EntryDll": "ZebrusQuestBoard.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:42337" ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": true
+        }
+    ]
+}
