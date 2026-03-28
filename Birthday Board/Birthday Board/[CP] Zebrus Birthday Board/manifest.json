@@ -1,0 +1,25 @@
+{
+    "Name": "[CP] Zebrus Birthday Board",
+    "Author": "Zebru",
+    "Version": "1.11.0",
+    "Description": "Assets for Zebrus Birthday Board.",
+    "UniqueID": "Zebru.BirthdayBoard.CP",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:43028" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    },
+    "Dependencies": [
+        // 1. Abhängigkeit zu Content Patcher selbst
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": true
+        },
+        // 2. WICHTIG: Abhängigkeit zu DEINEM C# Mod
+        {
+            "UniqueID": "Zebru.BirthdayBoard", // Hier muss EXAKT die ID aus der C# manifest.json rein
+            "IsRequired": true
+        }
+    ]
+}

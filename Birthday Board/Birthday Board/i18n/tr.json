@@ -1,0 +1,79 @@
+{
+    "board.name": "Zebrus Doğum Günü Panosu",
+    "board.description": "Bugün doğum gününü kutlayanları gösterir.",
+
+    "mail.text": "Merhaba @,^Çok düşünceli bir komşu olduğunu ve birçok doğum gününü hatırladığını fark ettim! İşte Doğum Günü Panosu'nu yapmak için taslaklar, buraya koydum ki hiç birini kaçırmayın. %item craftingRecipe ZebrusBirthdayBoard %% [#]Mayor Lewis",
+    "mail.text_wall": "P.S.:^Eski kayıtlarımda senin için başka bir taslak buldum. Bir duvar posteri, aynı amaca hizmet eder ve yerden tasarruf sağlar! %item craftingRecipe ZebrusBirthdayWallBoard %% [#]Mayor Lewis",
+
+    "dialogue.thanks": "{0} için bugün zaten bir hediye verdin",
+    "dialogue.simple_birthday": "Bugünkü doğum günü: {0}",
+    "dialogue.wishlist": "Bugünkü doğum günü: {0}\n\nSevilen eşyalar:\n- {1}",
+    "dialogue.no_birthday": "Stardew Vadisi'nde bugün kimsenin doğum günü yok.",
+
+    "config.radius.name": "Sandık Arama Yarıçapı",
+    "config.radius.tooltip": "Dikkat: Bu kaydırıcı (1 ila 50 arası) yalnızca üstteki açılır menüden 'belirli bir yarıçap' seçildiğinde çalışır!",
+    "config.filter.name": "Nadir Eşyaları Filtrele",
+    "config.filter.tooltip": "Çok nadir veya değiştirilemez eşyaların (örneğin Prizmatik Parça, İnci veya Büyülü Kaya Şekerleri) dilek listesinde görünmesini engeller.",
+    "config.showitems.name": "Sevilen Eşyaları Göster",
+    "config.showitems.tooltip": "Devre dışı bırakıldığında, panoda veya diyalogda bu eşyalar gösterilmez.",
+    "config.scope.name": "Eşya Arama Kapsamı",
+    "config.scope.tooltip": "Mod hangi kısımlardaki eşyaları saymalı?",
+    "scope.inventory": "Sadece Envanter",
+    "scope.radius": "Belirli Yarıçap (kaydırıcıya bakın)",
+    "scope.location": "Geçerli Konum (Tüm Harita)",
+    "scope.farm": "Tüm Çiftlik (bina/ev dahil)",
+    "scope.world": "Tüm Dünya",
+
+    "config.filter_wine.name": "Şarapları Filtrele",
+    "config.filter_truffleoil.name": "Trüf Mantarı Yağlarını Filtrele",
+    "config.filter_truffle.name": "Trüf Mantarlarını Filtrele",
+    "config.filter_paleale.name": "Pale Ale Öğelerini Filtrele",
+    "config.filter_starfruit.name": "Yıldız Meyvelerini Filtrele",
+    "config.filter_ancientfruit.name": "Antik Meyveleri Filtrele",
+    "config.filter_caviar.name": "Balık Yumurtalarını Filtrele",
+    "config.filter_iridiumbar.name": "İridyum Külçelerini Filtrele",
+    "config.filter_diamond.name": "Elmasları Filtrele",
+    "config.filter_fairyrose.name": "Peri Güllerini Filtrele",
+    "config.filter_item.tooltip": "Etkinleştirildiğinde, bu eşya dilek listesinde gösterilmeyecek.",
+    "config.section_filter.name": "Belirli Eşyaları Filtrele",
+
+    "phone.name": "Doğum Günü Telefonu",
+    "phone.description": "Her yerden bugün kimlerin doğum günü olduğunu kontrol edebilmenizi sağlayan bir telefon.",
+    "phone.mail": "Merhaba @,^Kendini aştın! Bu vadide senin kadar başkalarına önem veren kimse yok. Tüm çabalarınız için, şehirden eski bir taslak getirdim. Bir Doğum Günü Telefonu! %item craftingRecipe BirthdayPhone %%[#]Mayor Lewis",
+    "config.gifts_board.name": "Gerekli Hediye Sayısı (Pano)",
+    "config.gifts_board.tooltip": "Ahşap pano taslağını posta yoluyla almak için kaç doğum günü hediyesi vermeniz gerektiğini gösterir.",
+    "config.gifts_phone.name": "Gerekli Hediye Sayısı (Telefon)",
+    "config.gifts_phone.tooltip": "Telefon taslağını posta yoluyla almak için kaç doğum günü hediyesi vermeniz gerektiğini gösterir.",
+    "config.enable_phone.name": "Doğum Günü Telefonunu Etkinleştir",
+    "config.enable_phone.tooltip": "Etkinleştirildiğinde, belirlenen hediye sayısına ulaştıktan sonra telefon taslağını alırsınız. Devre dışı bırakıldığında telefon elde edilemez veya kullanılamaz.",
+
+    "wallboard.name": "Doğum Günü Duvar Afişi",
+    "wallboard.description": "Bugün doğum günü kutlayanları gösteren kullanışlı bir duvar afişi.",
+
+    "statistics.next_birthdays": "--- İstatistikler ve Bilgiler ---\nGelecek Doğum Günleri:\n{0}",
+    "statistics.entry": "- {0} ({2} {1})",
+    "season.spring": "İlkbahar",
+    "season.summer": "Yaz",
+    "season.fall": "Sonbahar",
+    "season.winter": "Kış",
+
+    "statistics.season": "Bu Sezon: {0}/{1} Hediye ({2}%)",
+    "statistics.year": "Bu Yıl: {0}/{1} Hediye ({2}%)",
+    "statistics.total": "Toplam: {0}/{1} Hediye ({2}%)",
+    "statistics.details_title": "Detaylar:",
+    "statistics.most_gifted_npc": "- En çok hediye edilen: {0} ({1} kez)",
+    "statistics.forgotten_npc_with_count": "- Unutulmuş hisseden: {0} ({1} kez)",
+    "statistics.most_gifted_item_with_count": "- En çok hediye edilen eşya: {0} ({1} kez)",
+
+    "menu.tab_today": "Bugünki Doğum Günleri",
+    "menu.tab_stats": "İstatistikler",
+    "menu.tab_calendar": "Takvim",
+
+    "config.phone_inventory_only.name": "Telefon: Sadece çiftlik dışı envanter",
+    "config.phone_inventory_only.tooltip": "Etkinleştirildiğinde, telefon çiftlik dışındaki yerlerde (örneğin kasabada) yalnızca oyuncu envanterini arar; ayarlanmış 'Eşya Arama Kapsamı' ayarı göz ardı edilir.",
+
+    "config.show_hud_icon.name": "Arayüz Simgesi: Doğum Günü Hatırlatıcısı",
+    "config.show_hud_icon.tooltip": "Etkinken, birilerinin doğum günü olduğunda ve henüz hediye almadıklarında sabah, saat arayüzünün yanında küçük bir kek simgesinin görünmesini sağlar.",
+
+    "dialogue.anniversary": "Evlilik Yıldönümünüz Kutlu Olsun!\n\nBugün {0} ile evliliğinizin {1}. yılı."
+}
