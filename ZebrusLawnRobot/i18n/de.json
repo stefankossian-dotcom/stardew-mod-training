@@ -1,0 +1,17 @@
+{
+    "config.physical_robot.name": "Physischer Roboter",
+    "config.physical_robot.tooltip": "Wenn aktiviert, fährt der Roboter sichtbar über die Farm. Wenn deaktiviert, mäht er das Gras unsichtbar im Hintergrund (besser für die Performance).",
+    "config.remove_grass.name": "Gras komplett entfernen",
+    "config.remove_grass.tooltip": "Wenn aktiviert, wird das Gras restlos entfernt. Wenn deaktiviert, wird dichtes Gras nur ausgedünnt (liefert auf Dauer mehr Heu, aber das Gras bleibt stehen).",
+
+    "item.normal.name": "Rasenmähroboter",
+    "item.normal.desc": "Mäht automatisch Gras in einem kleinen Radius und lagert das Heu im Silo ein.",
+    "item.gold.name": "Goldener Rasenmähroboter",
+    "item.gold.desc": "Mäht automatisch Gras in einem mittleren Radius und lagert das Heu im Silo ein.",
+    "item.iridium.name": "Iridium-Rasenmähroboter",
+    "item.iridium.desc": "Mäht automatisch Gras in einem großen Radius und lagert das Heu im Silo ein.",
+
+    "mail.misu1.text": "Hallo Farmer,^ich habe gesehen, dass du endlich ein Silo gebaut hast! Eine Farm ist erst dann wirklich modern, wenn man etwas automatisiert. Ich habe einen kleinen Helfer entworfen, der das hohe Gras in Schach hält. Platziere seine Station irgendwo auf deiner Farm und er erledigt den Rest.^Genieß die freie Zeit!^- Misu der Gartenfuchs",
+    "mail.misu2.text": "Hallo schon wieder!^Zwei Silos? Du meinst es ernst mit der Heuproduktion! Ich habe die Schaltkreise des Roboters optimiert. Mit etwas Gold läuft er viel effizienter und deckt einen größeren Bereich ab. Hier ist der Bauplan für das Upgrade!^- Misu",
+    "mail.misu3.text": "Unglaublich, Farmer!^Drei Silos... deine Farm ist jetzt offiziell ein High-Tech-Betrieb. Ich habe meine ultimative Schöpfung vollendet: Den Iridium-Mäher. Er nutzt die Energie des Iridiums, um fast die gesamte Farm sauber zu halten. Viel Erfolg!^- Misu"
+}

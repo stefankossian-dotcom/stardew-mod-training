@@ -1,0 +1,17 @@
+{
+    "config.physical_robot.name": "Physical Robot",
+    "config.physical_robot.tooltip": "If enabled, the robot will physically drive around your farm. If disabled, it mows the grass invisibly in its radius to save performance.",
+    "config.remove_grass.name": "Remove Grass Completely",
+    "config.remove_grass.tooltip": "If enabled, grass is completely removed when mowed. If disabled, thick grass is only thinned out (leaves grass behind but yields more hay over time).",
+
+    "item.normal.name": "Lawn Robot",
+    "item.normal.desc": "Automatically mows grass within a small radius and stores it in the silo.",
+    "item.gold.name": "Gold Lawn Robot",
+    "item.gold.desc": "Automatically mows grass within a medium radius and stores it in the silo.",
+    "item.iridium.name": "Iridium Lawn Robot",
+    "item.iridium.desc": "Automatically mows grass within a large radius and stores it in the silo.",
+
+    "mail.misu1.text": "Hello Farmer,^I noticed you finally built a silo! A farm isn't truly modern without some automation. I've designed a little helper that will keep the tall grass in check. Place its station anywhere on your farm, and it will do the rest.^Enjoy the free time!^- Misu the Garden Fox",
+    "mail.misu2.text": "Hello again!^Two silos? You're getting serious about hay production! I've optimized the robot's circuits. With some Gold, it runs much more efficiently and covers a larger area. Here's the blueprint for the upgrade!^- Misu",
+    "mail.misu3.text": "Incredible, Farmer!^Three silos... your farm is officially a high-tech operation now. I've completed my ultimate creation: The Iridium Mower. It harnesses the power of Iridium to keep almost the entire farm tidy. Good luck!^- Misu"
+}

@@ -1,0 +1,91 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        // 1. Lade deine Robot-Grafik
+        {
+            "Action": "Load",
+            "Target": "Mods/Zebrus.ZebrusLawnRobot/RobotSpritesheet",
+            "FromFile": "assets/robot.png"
+        },
+
+        // 2. Lade deine Garage-Grafik (16x32 Pixel)
+        {
+            "Action": "Load",
+            "Target": "Mods/Zebrus.ZebrusLawnRobot/GarageTexture",
+            "FromFile": "assets/garage.png"
+        },
+
+        // 3. Definition der Items (Garagen)
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Zebrus.ZebrusLawnRobot_Normal": {
+                    "Name": "Zebrus.ZebrusLawnRobot_Normal",
+                    "DisplayName": "{{Zebrus.ZebrusLawnRobot/LawnRobotNormalName}}",
+                    "Description": "{{Zebrus.ZebrusLawnRobot/LawnRobotNormalDesc}}",
+                    "Texture": "Mods/Zebrus.ZebrusLawnRobot/GarageTexture",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "CollisionRectangle": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    }
+                },
+                "Zebrus.ZebrusLawnRobot_Gold": {
+                    "Name": "Zebrus.ZebrusLawnRobot_Gold",
+                    "DisplayName": "{{Zebrus.ZebrusLawnRobot/LawnRobotGoldName}}",
+                    "Description": "{{Zebrus.ZebrusLawnRobot/LawnRobotGoldDesc}}",
+                    "Texture": "Mods/Zebrus.ZebrusLawnRobot/GarageTexture",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "CollisionRectangle": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    }
+                },
+                "Zebrus.ZebrusLawnRobot_Iridium": {
+                    "Name": "Zebrus.ZebrusLawnRobot_Iridium",
+                    "DisplayName": "{{Zebrus.ZebrusLawnRobot/LawnRobotIridiumName}}",
+                    "Description": "{{Zebrus.ZebrusLawnRobot/LawnRobotIridiumDesc}}",
+                    "Texture": "Mods/Zebrus.ZebrusLawnRobot/GarageTexture",
+                    "SpriteIndex": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": false,
+                    "CollisionRectangle": {
+                        "X": 0,
+                        "Y": 16,
+                        "Width": 16,
+                        "Height": 16
+                    }
+                }
+            }
+        },
+
+        // 4. Rezepte & Mail
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Zebrus.ZebrusLawnRobot_Normal": "787 1 334 5 338 1 / / Zebrus.ZebrusLawnRobot_Normal 1 / true / null / {{Zebrus.ZebrusLawnRobot/LawnRobotNormalName}}",
+                "Zebrus.ZebrusLawnRobot_Gold": "Zebrus.ZebrusLawnRobot_Normal 1 336 5 787 1 / / Zebrus.ZebrusLawnRobot_Gold 1 / true / null / {{Zebrus.ZebrusLawnRobot/LawnRobotGoldName}}",
+                "Zebrus.ZebrusLawnRobot_Iridium": "Zebrus.ZebrusLawnRobot_Gold 1 337 5 334 2 338 3 / / Zebrus.ZebrusLawnRobot_Iridium 1 / true / null / {{Zebrus.ZebrusLawnRobot/LawnRobotIridiumName}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "Zebrus.ZebrusLawnRobot_Mail1": "{{Zebrus.ZebrusLawnRobot/MisuMailOneText}}%item craftingRecipe Zebrus.ZebrusLawnRobot_Normal %%",
+                "Zebrus.ZebrusLawnRobot_Mail2": "{{Zebrus.ZebrusLawnRobot/MisuMailTwoText}}%item craftingRecipe Zebrus.ZebrusLawnRobot_Gold %%",
+                "Zebrus.ZebrusLawnRobot_Mail3": "{{Zebrus.ZebrusLawnRobot/MisuMailThreeText}}%item craftingRecipe Zebrus.ZebrusLawnRobot_Iridium %%"
+            }
+        }
+    ]
+}

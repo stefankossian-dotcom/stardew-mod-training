@@ -1,0 +1,20 @@
+{
+    "Name": "Zebrus Lawn Robot",
+    "Author": "Zebru",
+    "Version": "1.0.0",
+    "Description": "Fügt einen Rasenmähroboter hinzu, der automatisch Gras mäht und ins Silo einlagert.",
+    "UniqueID": "Zebrus.ZebrusLawnRobot",
+    "EntryDll": "ZebrusLawnRobot.dll",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:44383" ],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Pathoschild.ContentPatcher",
+            "IsRequired": true
+        }
+    ]
+}

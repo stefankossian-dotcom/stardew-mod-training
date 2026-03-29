@@ -1,0 +1,18 @@
+{
+    "Name": "Zebrus Lawn Robot - Content",
+    "Author": "Zebru",
+    "Version": "1.0.0",
+    "Description": "Items, Rezepte und Briefe für den Rasenmähroboter.",
+    "UniqueID": "Zebrus.ZebrusLawnRobotCP",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": [ "Nexus:44383" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Zebrus.ZebrusLawnRobot",
+            "IsRequired": true
+        }
+    ]
+}

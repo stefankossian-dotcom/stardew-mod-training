@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="[CP]ZebrusLawnRobot\assets\garage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="[CP]ZebrusLawnRobot\assets\robot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="rem --- Erstelle Ordner 1: Der Code Mod ---&#xD;&#xA;xcopy /Y &quot;$(TargetDir)$(TargetName).dll&quot; &quot;E:\Spiele\Steam\steamapps\common\Stardew Valley\Mods\ZebrusLawnRobot\&quot; /I&#xD;&#xA;xcopy /Y &quot;$(ProjectDir)manifest.json&quot; &quot;E:\Spiele\Steam\steamapps\common\Stardew Valley\Mods\ZebrusLawnRobot\&quot; /I&#xD;&#xA;&#xD;&#xA;rem --- Erstelle Ordner 2: Den i18n Sprach-Ordner ---&#xD;&#xA;xcopy /E /Y /I &quot;$(ProjectDir)i18n&quot; &quot;E:\Spiele\Steam\steamapps\common\Stardew Valley\Mods\ZebrusLawnRobot\i18n&quot;&#xD;&#xA;&#xD;&#xA;rem --- Erstelle Ordner 3: Der Content Patcher Mod ---&#xD;&#xA;xcopy /E /Y /I &quot;$(ProjectDir)[CP]ZebrusLawnRobot&quot; &quot;E:\Spiele\Steam\steamapps\common\Stardew Valley\Mods\[CP]ZebrusLawnRobot&quot;" />
+  </Target>
+
+</Project>
